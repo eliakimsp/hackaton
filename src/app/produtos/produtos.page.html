@@ -1,0 +1,82 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Meus produtos
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-fab horizontal="end" vertical="bottom" slot="fixed">
+    <ion-fab-button color="primary">
+      <ion-icon name="add" (click)="presentAlertPrompt()"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+  <ion-list>
+    <ion-item button (click)="open()">
+
+      <ion-label>
+        <h2>Abóbora</h2>
+        <h3>R$3,60/kg</h3>
+        <h3>12 unidades em estoque</h3>
+      </ion-label>
+    </ion-item>
+
+    <ion-item button (click)="open()">
+
+      <ion-label>
+        <h2>Alface</h2>
+        <h3>R$9,60/dúzia</h3>
+        <h3>3 unidades em estoque</h3>
+      </ion-label>
+    </ion-item>
+
+    <ion-item button (click)="open()">
+
+      <ion-label>
+        <h2>Batata inglesa</h2>
+        <h3>R$2,80/kg</h3>
+        <h3>42 unidades em estoque</h3>
+      </ion-label>
+    </ion-item>
+
+    <ion-item button (click)="open()">
+
+      <ion-label>
+        <h2>Cebola</h2>
+        <h3>R$4,20/kg</h3>
+        <h3>25 unidades em estoque</h3>
+      </ion-label>
+    </ion-item>
+
+    <ion-item button (click)="open()">
+
+      <ion-label>
+        <h2>Cenoura</h2>
+        <h3>R$1,56/kg</h3>
+        <h3>33 unidades em estoque</h3>
+      </ion-label>
+    </ion-item>
+
+    <ion-item button (click)="open()">
+
+        <ion-label>
+          <h2>Couve</h2>
+          <h3>R$8,12/kg</h3>
+          <h3>16 unidades em estoque</h3>
+        </ion-label>
+      </ion-item>
+
+    <ion-item button (click)="open()">
+
+      <ion-label>
+        <h2>Tomate</h2>
+        <h3>R$1,76/kg</h3>
+        <h3>27 unidades em estoque</h3>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>

@@ -1,27 +1,23 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-buttons slot="start">
-      <ion-menu-button></ion-menu-button>
-    </ion-buttons>
-    <ion-title>
-      List
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content>
-  <ion-list>
-    <ion-item *ngFor="let item of items">
-      <ion-icon [name]="item.icon" slot="start"></ion-icon>
-      {{item.title}}
-      <div class="item-note" slot="end">
-        {{item.note}}
-      </div>
-    </ion-item>
-  </ion-list>
-  <!--
-    <div *ngIf="selectedItem" padding>
-      You navigated here from <b>{{selectedItem.title }}</b>
-    </div>
-  -->
-</ion-content>
+    <ion-toolbar color="primary">
+      <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+      <ion-title>
+        Sobre o aplicativo
+      </ion-title>
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-content>
+      <ion-card>
+          <ion-card-header>
+            <ion-card-title>Sobre o aplicativo</ion-card-title>
+          </ion-card-header>
+        
+          <ion-card-content>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis voluptates similique neque, qui sed facilis. Ut corrupti aperiam beatae repellat asperiores soluta molestias! Omnis aperiam earum magni laboriosam natus labore.
+          </ion-card-content>
+        </ion-card>
+        
+  </ion-content>

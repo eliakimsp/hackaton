@@ -1,0 +1,39 @@
+<ion-header>
+  </ion-header>
+  <ion-content>
+    <div class="background-login">
+      <ion-grid>
+        <ion-row>
+          <ion-col>
+            <p class="titulo-login">HORTA NA PORTA</p>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </div>
+  <ion-card class="content-dados" color="secondary">
+    <ion-card-content>
+      <form>
+          <ion-item>
+            <ion-label color="primary" stacked>Email:</ion-label>
+            <ion-input type="email" placeholder="exemplo@email.com" clearInput></ion-input>
+          </ion-item>
+          <hr>
+          <ion-item>
+            <ion-label color="primary" stacked>Senha:</ion-label>
+            <ion-input type="password" placeholder="Digite sua senha" clearInput></ion-input>
+          </ion-item>
+          <hr>
+        <ion-item>
+          <ion-grid>
+            <ion-row>
+                <ion-button style="width: 100%; font-size: 1em;"  color="primary" block (click)="abrir()">Login</ion-button>
+              </ion-row>
+            <ion-row>
+                <ion-button style="width: 100%; font-size: 1em;" color="light" block (click)="openCadastro()">Cadastrar</ion-button>
+            </ion-row>
+          </ion-grid>
+        </ion-item>
+      </form>
+    </ion-card-content>
+  </ion-card>
+  </ion-content>
